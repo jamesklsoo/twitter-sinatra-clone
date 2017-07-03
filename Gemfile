@@ -24,14 +24,17 @@ gem 'rake'
 # Adding rspec for running unit testing
 gem 'rspec'
 
+gem 'byebug'
+gem 'bcrypt', '~> 3.1.7'
+
 group :development, :test do
-	# Adding shotgun for local web hosting
-	gem 'shotgun'
+  # Adding shotgun for local web hosting
+  gem 'shotgun'
 end
 
 group :production do
-	# Heroku
-	# ==================
-	gem 'rails_12factor' # Heroku Gem Supports
-	gem 'puma' # Using puma for
+  # Heroku
+  # ==================
+  gem 'rails_12factor' # Heroku Gem Supports
+  gem 'puma' # Using puma for
 end

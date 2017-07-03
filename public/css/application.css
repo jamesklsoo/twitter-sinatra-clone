@@ -1,0 +1,40 @@
+.bg-image {
+  background-image: url(../../img/northern-lights.jpg);
+  background-origin: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+body {
+  background-color: #ccdefc;
+}
+
+h1 {
+  font-family: Verdana, serif;
+  margin: auto;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: Verdana, serif;
+  font-size: 16px;
+}
+
+h3 {
+  font-family: Verdana, serif;
+  font-size: 16px;
+}
+
+#login {
+  color: white;
+  font-size: 14px;
+}
+
+#signup {
+  color: white;
+  font-size: 14px;
+}
+
+.form-container {
+  margin:auto;
+}

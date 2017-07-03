@@ -1,2 +1,35 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<div class="bg-image">
+<div class="container form-container">
+  <h2>Returning User?</h2>
+  <p id=login>Login to your account</p>
+  <p>
+  <form action="/login" method="post">
+    Email:<br>
+    <input type="email" name="user[email]" placeholder="user@example.com">
+    <br>
+    Password:<br>
+    <input type="password" name="user[password]" placeholder="password">
+    <br><br>
+    <input type="submit" value="Login">
+  </form>
+
+  </p>
+</div>
+
+<div class="container form-container">
+  <h2>New to Twitter?</h2>
+  <p id=signup>Sign up for a free account</p>
+  <form action="/signup" method="post">
+    Name:<br>
+    <input type="text" name="user[name]" placeholder="name">
+    <br>
+    Email:<br>
+    <input type="email" name="user[email]" placeholder="user@example.com">
+    <br>
+    Password:<br>
+    <input type="password" name="user[password]" placeholder="password">
+    <br><br>
+    <input type="submit" value="Sign up">
+  </form>
+</div>
+</div>
