@@ -12,14 +12,6 @@
     <title>Twitter Clone</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to Twitter Clone</h1>
-      <a href="/">Home</a> <br>
-      <% if logged_in? %>
-        current_user: ( <%=current_user.name%> | <%=current_user.email%> )
-      <%end%>
-    </header>
-
     <%= yield %>
   </body>
 </html>
